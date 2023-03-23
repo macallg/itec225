@@ -1,0 +1,36 @@
+h2 {
+color: blue;
+text-align: center;
+font-size: 62px;
+}
+
+label{
+color: white;
+}
+
+h3 {
+font-size: 42px;
+text-align: center;
+color: white;
+}
+.result {
+color: red;
+text-align: center;
+font-size: 40px;
+}
+
+form{
+    text-align: center;
+    font-size: 30px;
+}
+
+body{
+    background-color: dimgrey;
+}
+i{
+    color:blue;
+    font-size: 36px;
+    position:relative;
+    top: -125px;
+    left: 1100px;
+}

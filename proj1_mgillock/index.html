@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interest Calculator</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <script src="https://kit.fontawesome.com/2113528fcf.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <h2>Compound Interest Calculator</h2> 
+    <!--this was icon found on https://fontawesome.com/icons -->
+    <i class="fas fa-calculator fa-5x"></i>
+    <!--this form was found on https://purecss.io/ -->
+    <form class="pure-form pure-form-aligned">
+        <fieldset>
+            <div class="pure-control-group">
+                <label for="Principal">Principal</label>
+                <input type="number" id="Principal" placeholder="Amount" />
+            </div>
+            <div class="pure-control-group">
+                <label for="InterestRate">Interest rate</label>
+                <input type="double" id="interestRate" placeholder="Rate in %" />
+            </div>
+            <div class="pure-control-group">
+                <label for="Periods">Periods</label>
+                <input type="number" id="period" placeholder="Period" />
+            </div>
+            <div class="pure-control-group">
+                <label for="overallTime">Overall Time</label>
+                <input type="number" id="overallTime" placeholder="TimeMoneyIsInvested" />
+            </div>
+            <div class="pure-controls">
+                <button type="submit" class="pure-button pure-button-primary">Calculate</button>
+            </div>
+        </fieldset>
+    </form>
+    <h3>Compounded Interest:</h3>
+    <div id="result" class="result"></div>
+    <script src="./script/script.js"></script>
+    
+    
+</body>
+</html>
+
+
